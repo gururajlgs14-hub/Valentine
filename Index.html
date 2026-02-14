@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Git Merge: Love/Valentine</title>
+    <style>
+        body {
+            background-color: #0d1117;
+            color: #c9d1d9;
+            font-family: 'Segoe UI', 'Fira Code', monospace;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .terminal {
+            background: #161b22;
+            border: 1px solid #30363d;
+            border-radius: 8px;
+            padding: 30px;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.8);
+            max-width: 500px;
+        }
+        .heart {
+            color: #f85149;
+            font-size: 50px;
+            text-align: center;
+            margin-bottom: 20px;
+            animation: pulse 1.2s infinite ease-in-out;
+        }
+        @keyframes pulse {
+            0% { transform: scale(1); filter: drop-shadow(0 0 0px #f85149); }
+            50% { transform: scale(1.1); filter: drop-shadow(0 0 15px #f85149); }
+            100% { transform: scale(1); filter: drop-shadow(0 0 0px #f85149); }
+        }
+        .code-line { margin: 5px 0; font-size: 16px; }
+        .keyword { color: #ff7b72; }
+        .func { color: #d2a8ff; }
+        .string { color: #a5d6ff; }
+        .comment { color: #8b949e; font-style: italic; }
+        .cursor { display: inline-block; width: 8px; height: 18px; background: #58a6ff; animation: blink 1s infinite; margin-left: 5px; vertical-align: middle; }
+        @keyframes blink { 50% { opacity: 0; } }
+    </style>
+</head>
+<body>
+
+    <div class="terminal">
+        <div class="heart">❤</div>
+        <div class="code-line"><span class="comment">// Valentine Protocol 2026.02.14</span></div>
+        <div class="code-line"><span class="keyword">while</span> (existence == <span class="keyword">true</span>) {</div>
+        <div class="code-line">&nbsp;&nbsp;&nbsp;&nbsp;Me.<span class="func">love</span>(You);</div>
+        <div class="code-line">&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">if</span> (conflicts == <span class="keyword">true</span>) {</div>
+        <div class="code-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Relationship.<span class="func">gitForcePush</span>();</div>
+        <div class="code-line">&nbsp;&nbsp;&nbsp;&nbsp;}</div>
+        <div class="code-line">}</div>
+        <br>
+        <div class="code-line"><span class="comment">// Status: Build Successful.</span></div>
+        <div class="code-line"><span class="comment">// Result: You are my root directory.</span></div>
+        <div class="code-line">> Happy Valentine's Day!<span class="cursor"></span></div>
+    </div>
+
+</body>
+</html>
